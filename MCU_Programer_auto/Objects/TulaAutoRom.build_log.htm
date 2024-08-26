@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dfsdf sdfsdf, sdfsdf, LIC=D0D7S-L5M6J-Y8YFK-Z2IVI-TL52R-5TCXA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\Setup\KEILC\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      NULink\Nu_Link.dll V3.15
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\Tula\may nap room\FrimwarePhuc\CodeMain\MCU_Programer_auto\TulaAutoRom.uvprojx
+Project File Date:  08/22/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'D:\Setup\KEILC\ARM\ARMCLANG\Bin'
+Build target 'ROM_AUTOMATIC'
+Note: source file '.\grbl\main.c' - object file renamed from '.\Objects\main.o' to '.\Objects\main_1.o'.
+grbl/stepper.c(22): warning: In file included from...
+grbl/grbl.h(49): warning: In file included from...
+grbl/eeprom.h(24): warning: In file included from...
+../Library/Device/Nuvoton/NUC100Series/Include\NUC100Series.h(150): warning: In file included from...
+../Library/CMSIS/Include\core_cm0.h(106): warning: "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)" [-W#warnings]
+    #warning "Compiler generates FPU instructions for a device without an FPU (check __FPU_PRESENT)"
+     ^
+1 warning generated.
+compiling stepper.c...
+linking...
+Program Size: Code=41416 RO-data=1548 RW-data=48 ZI-data=4520  
+After Build - User command #1: fromelf --bin ".\Objects\TulaAutoRom.axf" --output ".\Objects\TulaAutoRom.bin"
+After Build - User command #2: fromelf --text -c ".\Objects\TulaAutoRom.axf" --output ".\Objects\TulaAutoRom.txt"
+".\Objects\TulaAutoRom.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Nuvoton
+                https://github.com/OpenNuvoton/cmsis-packs/raw/master/Nuvoton_DFP/Nuvoton.NuMicro_DFP.1.3.23.pack
+                Nuvoton.NuMicro_DFP.1.3.23
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_ROM_AUTOMATIC
+  D:/Setup/KEILC/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Setup/KEILC/PACK/Nuvoton/NuMicro_DFP/1.3.23/Device/NUC100/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+Cac lenh dieu khien bang GCode:
+M10 	VACUUM1_ON				
+M11 	VACUUM1_OFF				
+M12		VACUUM2_ON				
+M13 	VACUUM2_OFF				
+M14 	XILANH1_ON				
+M15 	XILANH1_OFF				
+M16		XILANH2_ON				
+M17		XILANH2_OFF				
+M18		RINGLED_ON 				
+M19		RINGLED_OFF 			
+M20		PUMP_ON						
+M21		PUMP_OFF									
